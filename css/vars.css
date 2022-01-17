@@ -1,0 +1,19 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+  --first-brand-color: #000;
+  --second-brand-color: rgb(218, 218, 218);
+
+  --main-font:  'Raleway';
+  --title-font:  'Raleway Semibold';
+  --main-title-font: 'Bebas Neue';
+
+  font-size: 62.5%;
+}

@@ -86,18 +86,7 @@
     width: 4rem;
     text-align: center;
 }
-.prod__payments-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-.prod__payments-img {
-    width: 6rem;
-}
-.prod__payments-img:not(:last-child) {
-    margin-right: 1rem;
-}
+
 .prod__subtitle {
     margin-bottom: 1rem;
 }
@@ -114,51 +103,7 @@
      width: 15rem;
      outline: none;
  }
-/* ACCORDION START */
 
-.accordion {
-    border-bottom: .3rem solid var(--sub-bg-color);
-    cursor: pointer;
-    padding: 1.5rem;
-    width: 100%;
-    text-align: left;
-    outline: none;
-    font-size: 1.8rem;
-    transition: 0.5s;
-}
-.active, .accordion:hover {
-    background-color: var(--sub-bg-color);
-    color: var(--sub-text-color);
-}
-.active:after, .accordion:hover:after {
-    color: var(--sub-text-color);
-}
-.accordion:after {
-    content: '\002B';
-	font-size: 1.8rem;
-    font-weight: bold;
-    float: right;
-    margin-left: .5rem;
-}
-.active:after {
-    content: "\2212";
-}
-.panel {
-    padding: 0 2rem;
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3s ease-out;
-}
-.active+.panel {
-    padding: 2rem;
-}
-.disable-btn {
-    pointer-events: none;
-}
-.disable-btn svg {
-    opacity: 0.3;
-}
-/* ACCORDION END */
 
 .add__btn {
     display: block;

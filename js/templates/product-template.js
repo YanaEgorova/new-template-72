@@ -62,28 +62,13 @@ v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,
        <p class="text success-message js_success-message">Success! You have added <span class="js_success-product-name"></span> to your shopping cart!</p>
        <button class="btn add__btn js_add__btn">add to cart</button>
        </div>
-       <div class="prod__payments-box">
-           <img src="./img/icons/mastercard.png" alt="" class="prod__payments-img">
-           <img src="./img/icons/visa.png" alt="" class="prod__payments-img">
-       </div>
+     
       
        <div class="prod__text-block">
        ${description(product.description)}
          </div>
      
-       <div class="prod__bottom-block">
-           <button class="accordion">RETURN & WARRANTY</button>
-           <div class="panel">
-               <p class="text"><span class="bold">100% Secure payment</span> with SSL Encryption.
-                   <br>If you're not <span class="bold">100% satisfied</span>, let us know and we'll make it right.</p>
-           </div>
-
-           <button class="accordion">SHIPPING POLICIES</button>
-           <div class="panel">
-               <p class="text">Orders ship within <span class="bold">5 to 10 business days</span>.
-                   <br><span class="bold">Tip:</span> Buying 2 products or more at the same time will save you quite a lot on shipping fees.</p>
-           </div>
-       </div>
+      
    </div>
 </div>
 `

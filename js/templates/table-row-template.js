@@ -13,7 +13,7 @@ export const tableRowTemplate = (product) => {
     <td class="text">
         <p>$0.00</p>
     </td>
-    <td class="text">${(product.quantity * product.price).toFixed(2)}</td>
+    <td class="text">$${(product.quantity * product.price).toFixed(2)}</td>
     <td>
       <button class="orders__close-btn js_remove-product"></button>
     </td>

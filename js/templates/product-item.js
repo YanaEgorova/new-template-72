@@ -16,7 +16,9 @@ export const item = (product) => {
   
     <div class="product__btn-block">
     <a href="product-page.html?id=${product.id}" class="product__btn">product details</a>
-    <button class="product__btn js_add-to-cart">add to cart</button>
+    ${
+      product.isItRing ? '<button style="display: none" class="btn js_add-to-cart">buy</button>' : '<button class="btn js_add-to-cart">buy</button>'
+  }
     </div>
 
 </div>

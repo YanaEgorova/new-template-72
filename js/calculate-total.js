@@ -53,6 +53,10 @@ function cartAdd(e) {
         okay = false;
     }
 
+    if(document.getElementsByClassName('prod__select')[0] && document.getElementsByClassName('prod__select')[0].value === 'Select') {
+        okay = false;
+    }
+
     // ADD TO LOCAL STORAGE
     if (okay){
         if(cartSpan) {

@@ -4,6 +4,11 @@ export const tableRowTemplate = (product) => {
     <td class="text">
       <p>${product.name}</p>
     </td>
+
+    <td class="text">
+        <p>${product.name} ${product.ringSize ? "(Size" + product.ringSize + ")" : ""}</p>
+    </td>
+
     <td class="text">
       <p>${product.quantity}</p>
     </td>
@@ -19,4 +24,4 @@ export const tableRowTemplate = (product) => {
     </td>
   </tr>
       `
-  }
+}

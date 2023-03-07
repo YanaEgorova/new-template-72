@@ -28,7 +28,9 @@ window.onload = function() {
       }
    }
 
+
 };
+
 
 
 function shopPageFunctional() {

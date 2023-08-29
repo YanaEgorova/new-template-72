@@ -108,7 +108,7 @@ body.open-menu {
     left: -2rem;
 }
 .nav__item {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     cursor: pointer;
 }
 .nav{
@@ -175,7 +175,7 @@ body.open-menu {
         width: fit-content;
         height: auto;
         background-color: transparent;
-        padding: 0 3rem;
+        padding: 0 3rem 0 0;
         opacity: 1;
         visibility: visible;
         pointer-events: initial;
